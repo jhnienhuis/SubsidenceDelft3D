@@ -1,0 +1,47 @@
+Domain, Checked : No        
+     Grid                  : grid_flow_mid.grd
+     Grid enclosure        : grid_flow_mid.enc
+     Bathymetry            : grid_flow_midchannel.dep
+     Dry points            : bypass.dry
+     Thin dams             : none
+
+Time frame, Checked : Yes       
+
+Processes, Checked : No        
+
+Initial conditions, Checked : Yes       
+
+Boundaries, Checked : No        
+     Boundary definitions  : bypass.bnd
+     Astronomical flow conditions : none
+     Astronomical corrections : none
+     Harmonic flow conditions : none
+     QH-relation flow conditions : none
+     Time series flow conditions : bypass.bct
+     Transport conditions  : bypass.bcc
+
+Physical parameters, Checked : No        
+     Roughness coefficients : grid_flow_mid.rgh
+     Hor. viscosity/diffusivity : none
+     Heat flux model data  : none
+     Sediment data         : bypass.sed
+     Morphology data       : bypass.mor
+     Uniform wind data     : none
+     Space varying wind data : none
+
+Numerical parameters, Checked : No        
+
+Operations, Checked : No        
+     Discharge definitions : none
+     Discharge data        : none
+     Dredging and dumping data : none
+
+Monitoring, Checked : No        
+     Observation points    : bypass.obs
+     Drogues               : none
+     Cross-sections        : bypass.crs
+
+Additional parameters, Checked : No        
+
+Output, Checked : No        
+     Fourier analysis data : none

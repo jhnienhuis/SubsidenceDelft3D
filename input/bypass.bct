@@ -1,0 +1,26 @@
+table-name           'Boundary Section : 1'
+contents             'Uniform             '
+location             'Inlet               '
+time-function        'non-equidistant'
+reference-time       20000101
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '                     unit '[min]'
+parameter            'water elevation (z)  end A'               unit '[m]'
+parameter            'water elevation (z)  end B'               unit '[m]'
+records-in-table     2
+ 0.0000000e+000  5.0000000e+000  5.0000000e+000
+ 4.1760000e+005  5.0000000e+000  5.0000000e+000
+table-name           'Boundary Section : 2'
+contents             'Uniform             '
+location             'East                '
+time-function        'non-equidistant'
+reference-time       20000101
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '                     unit '[min]'
+parameter            'water elevation (z)  end A'               unit '[m]'
+parameter            'water elevation (z)  end B'               unit '[m]'
+records-in-table     2
+ 0.0000000e+000  1.0000000e+000  1.0000000e+000
+ 4.1760000e+005  1.0000000e+000  1.0000000e+000

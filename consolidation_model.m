@@ -17,10 +17,10 @@ ii = numel(t);
 
 
 sig = sig0;
-sigf = sig + (ero_dep(:,:,ii).*g.*rho);
+sigf = sig + (ero_dep(:,:,ii).*g.*(rho-rhow));
 
 cc = 2; %%http://link.springer.com/article/10.1007/s10064-016-0890-6
-ca = 0.2*cc; %(ASTM D 2435-70)
+ca = 0.06*cc; %(ASTM D 2435-70)
 
 %strain mesri
 e_str_func = @(e_max,sigf) (e_max.*sigf/1600000);
